@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.Controller">
+   <children>
+      <Text layoutX="25.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Number:" wrappingWidth="140.7294921875" />
+      <Text layoutX="25.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Number:" wrappingWidth="125.0" />
+      <Text layoutX="25.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result" wrappingWidth="125.0" />
+      <TextField fx:id="firstNumberTextField" layoutX="175.0" layoutY="21.0" prefHeight="24.0" prefWidth="125.0" />
+      <TextField fx:id="secondNumberTextField" layoutX="175.0" layoutY="58.0" prefHeight="24.0" prefWidth="125.0" />
+      <Button fx:id="sumarButton" layoutX="20.0" layoutY="142.0" mnemonicParsing="false" onAction="#sumar" prefHeight="24.0" prefWidth="125.0" text="+" />
+      <Button fx:id="restarButton" layoutX="169.0" layoutY="142.0" mnemonicParsing="false" onAction="#restar" prefHeight="24.0" prefWidth="125.0" text="-" />
+      <Button fx:id="multiplicarButton" layoutX="20.0" layoutY="180.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="24.0" prefWidth="125.0" text="*" />
+      <Button fx:id="divisionButton" layoutX="169.0" layoutY="180.0" mnemonicParsing="false" onAction="#dividir" prefHeight="24.0" prefWidth="125.0" text="/" />
+      <Button fx:id="restoButton" layoutX="20.0" layoutY="216.0" mnemonicParsing="false" onAction="#resto" prefHeight="24.0" prefWidth="125.0" text="\%" />
+      <Button fx:id="clearButton" layoutX="170.0" layoutY="216.0" mnemonicParsing="false" onAction="#clear" prefHeight="24.0" prefWidth="125.0" text="CLEAR" />
+      <Label fx:id="resultLabel" layoutX="175.0" layoutY="96.0" prefHeight="24.0" prefWidth="125.0" />
+   </children>
+</Pane>

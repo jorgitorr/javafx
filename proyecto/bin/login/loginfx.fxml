@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="182.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.Controller">
+   <children>
+      <Button fx:id="button1" layoutX="21.0" layoutY="50.0" mnemonicParsing="false" onAction="#onButton1" prefHeight="32.0" prefWidth="93.0" text="7" />
+      <Button fx:id="button2" layoutX="114.0" layoutY="50.0" mnemonicParsing="false" onAction="#onButton2" prefHeight="32.0" prefWidth="93.0" text="2" />
+      <Button fx:id="button3" layoutX="207.0" layoutY="50.0" mnemonicParsing="false" onAction="#onButton3" prefHeight="32.0" prefWidth="93.0" text="1" />
+      <Button fx:id="button4" layoutX="300.0" layoutY="50.0" mnemonicParsing="false" onAction="#onButton4" prefHeight="32.0" prefWidth="93.0" text="5" />
+      <Button fx:id="button5" layoutX="393.0" layoutY="50.0" mnemonicParsing="false" onAction="#onButton5" prefHeight="32.0" prefWidth="93.0" text="4" />
+      <Button fx:id="button6" layoutX="21.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButton6" prefHeight="32.0" prefWidth="93.0" text="8" />
+      <Button fx:id="button7" layoutX="114.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButton7" prefHeight="32.0" prefWidth="93.0" text="0" />
+      <Button fx:id="button8" layoutX="207.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButton8" prefHeight="32.0" prefWidth="93.0" text="3" />
+      <Button fx:id="button9" layoutX="300.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButton9" prefHeight="32.0" prefWidth="93.0" text="9" />
+      <Button fx:id="button10" layoutX="393.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButton10" prefHeight="32.0" prefWidth="93.0" text="6" />
+      <Button fx:id="clearButton" layoutX="110.0" layoutY="133.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
+      <TextField fx:id="contraseniaTextField" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="133.0" text="Introducir codigo acceso" />
+      <Button fx:id="enterButton" layoutX="347.0" layoutY="133.0" mnemonicParsing="false" onAction="#enter" text="Enter" />
+   </children>
+</Pane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="391.0" style="-fx-background-color: #2D7AC2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="counterfx.Controller">
+   <children>
+      <Button fx:id="incBtn" layoutX="130.0" layoutY="98.0" mnemonicParsing="false" onAction="#incrementar" style="-fx-background-color: #F8E469;" text="Incrementar" />
+      <Label fx:id="counterLabel" layoutX="251.0" layoutY="102.0" text="0" textFill="WHITE" />
+      <Label fx:id="contadorLabel" layoutX="130.0" layoutY="70.0" text="Contador" textFill="WHITE" />
+      <Button fx:id="otroBtn" layoutX="69.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="142.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="81.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celsius" wrappingWidth="36.4921875" />
+      <TextField fx:id="celsiusTextField" layoutX="202.0" layoutY="37.0" onAction="#celsiusToFahrenheit" />
+      <TextField fx:id="fahrenheitTextField" layoutX="202.0" layoutY="88.0" onAction="#fahrenheitToCelsius" />
+      <Text layoutX="83.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fahrenheit" wrappingWidth="68.13671875" />
+   </children>
+</Pane>
