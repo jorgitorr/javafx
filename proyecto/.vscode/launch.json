@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClienteApp",
+            "request": "launch",
+            "mainClass": "clientesapp.main.ClienteApp",
+            "projectName": "proyecto_5b125eb8",
+            "vmArgs": "--module-path c:/Users/jorge/Documents/javafx-sdk-17.0.7/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "piedraPapelTijera",
             "request": "launch",
             "mainClass": "piedraPapelTijera.piedraPapelTijera",

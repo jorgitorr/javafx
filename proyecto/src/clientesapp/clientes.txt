@@ -1,0 +1,9 @@
+1;Maria;Rosales;EspaÃ±a
+2;Gabi;Giardili;Italia
+3;JesÃºs;Guerrero;Francia
+5;Paco;Romero;EspaÃ±a
+6;Fernando;Gonzalez;Alemania
+7;Raúl;Falcon;Ucrania
+4;Aurelio;Arnedillo;España
+10;Tony;Cruz;Inglaterra
+11;Mercedes;Moya;Polonia
